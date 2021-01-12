@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>TodoList</h1>
+    <v-btn block color="primary">
+      Block Button
+    </v-btn>
   </div>
 </template>
 
