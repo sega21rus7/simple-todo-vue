@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
-import Home from "@/views/Home.vue";
-import TodoList from "@/views/TodoList.vue";
+import Home from "@/components/Home.vue";
+import TodoList from "@/components/TodoList.vue";
 
 Vue.use(VueRouter);
 

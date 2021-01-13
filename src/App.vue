@@ -1,18 +1,27 @@
 <template>
   <v-app id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/todos">TodoList</router-link>
-    </div>
-    <router-view/>
+    <Header />
+    <Main />
+    <Footer />
   </v-app>
 </template>
 
-<style>
+<script lang="ts">
+import Footer from "@/components/Footer.vue";
+import Header from "@/components/Header.vue";
+import Main from "@/components/Main.vue";
 
+export default {
+  components: { Footer, Header, Main },
+};
+</script>
+
+<style scoped>
 #app {
   margin: 0;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+}
 </style>
