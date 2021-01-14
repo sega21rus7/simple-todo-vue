@@ -25,7 +25,6 @@ module.exports = {
     "no-console": ["error", { allow: ["log", "warn", "error"] }],
     "comma-dangle": ["error", "always-multiline"],
     "object-curly-spacing": ["error", "always"],
-    "arrow-parens": ["warn", "as-needed"],
     "space-before-function-paren": 0,
   },
 };
